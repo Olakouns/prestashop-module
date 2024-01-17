@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>oscanmodule</name>
+    <displayName><![CDATA[Module de Scan d&#039;Articles]]></displayName>
+    <version><![CDATA[1.1.0]]></version>
+    <description><![CDATA[Ajoutez la fonctionnalit&eacute; de scan de codes-barres pour ajouter des articles au panier.]]></description>
+    <author><![CDATA[Razacki]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

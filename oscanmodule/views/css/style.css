@@ -1,0 +1,14 @@
+.center-camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 12px;
+}
+
+.drawingBuffer{
+    display: none;
+}
+
+video {
+    width: 600px;
+}

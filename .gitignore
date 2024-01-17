@@ -1,0 +1,27 @@
+# Ignore composer files
+/vendor/
+/odatamodule/vendor/
+
+# Ignore logs and temporary files
+/log/
+/tmp/
+
+# Ignore configuration files
+/config.php
+.env
+
+# Ignore build artifacts
+/build/
+
+# Ignore user-specific files
+.idea/
+.DS_Store
+
+# Ignore Composer's autoloader
+/vendor/autoload.php
+
+# Ignore Composer's generated files
+/vendor/composer/
+
+# Ignore the local PHP development server file
+php_server.pid

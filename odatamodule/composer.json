@@ -1,0 +1,28 @@
+{
+    "name": "dmc/odatamodule",
+    "description": "ODATA - API Module Example",
+    "homepage": "https://github.com/olakouns",
+    "license": "AFL-3.0",
+    "authors": [
+      {
+        "name": "Razacki",
+        "email": "rkounasso@metalafrique.com"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\OdataAPI\\": "src/"
+        }
+    },
+    "require": {
+        "saintsystems/odata-client": "^0.7.2",
+        "spatie/async": "^1.6"
+    },
+    "config": {
+      "preferred-install": "dist",
+      "classmap-authoritative": true,
+      "optimize-autoloader": true,
+      "prepend-autoloader": false
+    },
+    "type": "prestashop-module"
+}
